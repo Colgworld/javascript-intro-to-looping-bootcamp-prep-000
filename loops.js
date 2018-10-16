@@ -11,13 +11,13 @@ function forLoop(array) {
   return array;
 }
 
-function whileLoop(n) {
-  let n = 20
-  let d = 'done!';
-  while (n > 0) {
+function whileLoop(num) {
+  let num = 20
+  let done = 'done!';
+  while (num > 0) {
     console.log(--n)
   }
-return d
+return done
 }
 
 function doWhileLoop(n) {
