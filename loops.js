@@ -13,18 +13,17 @@ array = [];
 
 
 function forLoop(array) {
-    //var string1 = "I am 1 strange loop.";
-    //var stringOther = "I am ${i} strange loops.";
-    for(var i = 0; i < 25; i++) {
+  for (var i = 0; i < 25; i++) {
      var oneStrangeLoop = "I am 1 strange loop.";
      var strangeLoops = "I am " + i + " strange loops.";
+
       if (i === 1) {
-      array.push(oneStrangeLoop);
-    }
+        array.push(oneStrangeLoop);
+      }
      else {
-      array.push(strangeLoops);
-    }
- }
+       array.push(strangeLoops);
+     }
+   }
  return array;
 }
 
@@ -38,6 +37,16 @@ function whileLoop(n) {
 return done
 }
 
-function doWhileLoop(n) {
 
+
+function doWhileLoop(array) {
+ var i = 0;
+  function incrementVariable() {
+    i = i + 1;
+    }
+     do {
+       array.pop();
+    }
+    while(array.length > 0 && incrementVariable());
+ return array;
 }
