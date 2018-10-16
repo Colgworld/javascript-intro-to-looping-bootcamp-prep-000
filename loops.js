@@ -1,4 +1,4 @@
-// array = [];
+array = [];
 
 function forLoop(array) {
     for (let i = 0; i < 25; i++) {
@@ -12,10 +12,12 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  while () {
-    body
+  let n = 20
+  let d = 'done!';
+  while (n > 0) {
+    console.log(--n)
   }
-
+return d
 }
 
 function doWhileLoop(n) {
