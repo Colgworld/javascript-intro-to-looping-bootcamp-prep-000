@@ -14,10 +14,10 @@ function forLoop(array) {
 function whileLoop(n) {
   let countdown = n
   let done = 'done!';
-    while (countdown > 0) {
-      console.log(--countdown)
-    }
-  return done
+  while (countdown > 0) {
+    console.log(--countdown)
+  }
+return done
 }
 
 function doWhileLoop(n) {
